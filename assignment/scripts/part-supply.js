@@ -75,10 +75,9 @@ for(let x=0; x<supplyChanges.length; x++){
 console.log('9. Filling boxes with a "while" loop');
 
 let warehouseParts = 572
-let boxes=0
-
+let boxes = 0
 while(warehouseParts>7){
-    warehouseParts+(-7);
+    warehouseParts-=7;
     boxes++;
 }
-    console.log(boxes,warehouseParts);
+    console.log('boxes:',boxes,'remaining parts:',warehouseParts);
